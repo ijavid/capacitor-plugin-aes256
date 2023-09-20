@@ -1,8 +1,8 @@
-/// <reference types="@capacitor/core" />
+/// <reference types="@capacitor/cli" />
 
-declare module '@capacitor/core' {
+declare module '@capacitor/cli' {
   export interface PluginsConfig {
-    AES256Plugin?: {
+    AES256?: {
       /**
        * The secure key to be used for encryption.
        */
